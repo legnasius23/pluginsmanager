@@ -1,4 +1,4 @@
-﻿using System.Windows.Forms;
+using System.Windows.Forms;
 
 namespace PluginsManager
 {
@@ -62,7 +62,6 @@ namespace PluginsManager
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(25, 25);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
-            this.toolStripButton2,
             this.toolStripSeparator1,
             this.toolStripButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
@@ -82,16 +81,6 @@ namespace PluginsManager
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(29, 29);
             this.toolStripButton1.Text = "toolStripButton1";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton2.Image = global::PluginsManager.Properties.Resources.github32;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(148, 29);
-            this.toolStripButton2.Text = "toolStripButton2";
-            this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // toolStripSeparator1
             // 
@@ -162,7 +151,6 @@ namespace PluginsManager
         public ColorDialog colorDialog1;
         public TabControl tabControl;
         public ToolStrip toolStrip1;
-        public ToolStripButton toolStripButton2;
         public GroupBox groupBox1;
         public RichTextBox richTextBox1;
         public ToolStripButton toolStripButton1;
